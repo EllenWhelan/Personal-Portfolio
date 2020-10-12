@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Cover Template · Bootstrap</title>
+    <title>About Me</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
 
@@ -45,23 +45,28 @@
   </head>
   <body class="text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      
-      <nav class="nav nav-masthead justify-content-center">
-      </nav>
-    </div>
-  </header>
-
-      <div class="container">
-      
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="{% url 'profile'%}">About Me</a>
+            <a class="nav-link" href="{% url 'proj'%}">Projects</a>
+            <a class="nav-link" href="{%url 'contact'%}">Contact Me</a>
+          </nav>
+        </div>
+      </header>
+  <section class="jumbotron text-center">
+    <div class="container">
       <img src="{% static 'me.png' %}" height=300> </img>
-      
+      <p>
+      </p>
     </div>
+  </section>
+
+     
 
   <main role="main" class="inner cover">
-    <h1 class="cover-heading">Hello</h1>
-    <p class="lead"> I like to code</p>
+    <h1 class="cover-heading">Welcome</h1>
+    <p class="lead"> I enjoy coding in java, python and C++. I also enjoy reading non-fiction books about political history and cooking.</p>
     <p class="lead">
       <a href="{% url 'home' %}" class="btn btn-lg btn-secondary">Home</a>
     </p>

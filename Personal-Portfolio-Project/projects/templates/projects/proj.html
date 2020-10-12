@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Ellen Whelan</title>
+    <title>Projects</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
 
@@ -48,14 +48,24 @@
   
 
 <main role="main">
-
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="{% url 'profile'%}">About Me</a>
+        <a class="nav-link" href="{% url 'proj'%}">Projects</a>
+        <a class="nav-link" href="{%url 'contact'%}">Contact Me</a>
+      </nav>
+    </div>
+  </header>
   <section class="jumbotron text-center">
     <div class="container">
       <h1>Ellen Whelan </h1>
       <p class="lead text-muted">A Computer Science student developing simple projects.</p>
       <img src="{% static 'me.png' %}" height=300> </img>
       <p>
-        
+        <p class="lead">
+          <a href="{% url 'home' %}" class="btn btn-lg btn-secondary">Home</a>
+        </p>
         
       </p>
     </div>
@@ -82,9 +92,6 @@
     </div>
   </div>
 
-  <p class="lead">
-    <a href="{% url 'home' %}" class="btn btn-lg btn-secondary">Home</a>
-  </p>
 </main>
 
 <!--Bootstrap core JS-->
