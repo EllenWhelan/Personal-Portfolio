@@ -15,11 +15,5 @@ Postgresql docs:https://www.postgresql.org/docs/
 
 The UI is similarly somewhat basic as my focus was on learning the structure of the django framework with the views and models. 
 
-![home](https://github.com/EllenWhelan/Personal-Portfolio/blob/main/images/home.png)
-![about](https://github.com/EllenWhelan/Personal-Portfolio/blob/main/images/about.png)
-![proj](https://github.com/EllenWhelan/Personal-Portfolio/blob/main/images/proj1.png)
-![proj2](https://github.com/EllenWhelan/Personal-Portfolio/blob/main/images/proj2.png)
-![detail](https://github.com/EllenWhelan/Personal-Portfolio/blob/main/images/detail.png)
-![contact](https://github.com/EllenWhelan/Personal-Portfolio/blob/main/images/contact.png)
 
 
